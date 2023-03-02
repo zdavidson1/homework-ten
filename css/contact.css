@@ -1,0 +1,83 @@
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40.77%;
+  width: 75%;
+  margin: 0 auto 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.contact-wrapper .contact-image {
+  height: 442px;
+  width: 70%;
+  background-image: url(../images/flat-street-map-direction-gps-navigation-road-town-pins-simple-information-scheme-city-river-travel-plan-route-174351973.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+.contact-wrapper .contact-form {
+  margin-left: 30px;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 34px;
+  margin-left: 12.8%;
+  margin-bottom: 10%;
+}
+.contact-info h3 {
+  font-size: 150%;
+  height: 100%;
+  width: 30%;
+}
+
+input[type=text] {
+  width: 80%;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  color: black;
+}
+
+input[type=text]::-moz-placeholder {
+  color: black;
+}
+
+input[type=text]:-ms-input-placeholder {
+  color: black;
+}
+
+input[type=text]::-ms-input-placeholder {
+  color: black;
+}
+
+input[type=text]::placeholder {
+  color: black;
+}
+
+.learn-more2 {
+  height: 60px;
+  width: 14%;
+  background-color: #79addc;
+  font-size: medium;
+  padding-top: 22px;
+  color: white;
+  text-align: center;
+  margin-left: 8.5%;
+  text-transform: uppercase;
+}

@@ -1,0 +1,237 @@
+.home {
+  .hero {
+    height: 500px;
+    max-width: 1280px;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+
+    .homepage-text {
+      max-width: 717px;
+      max-height: 225px;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 220px;
+      color: white;
+    }
+
+    .learn-more {
+      padding: 5px 15px;
+      background-color: #79addc;
+      width: 121px;
+      color: white;
+      position: absolute;
+      top: 377px;
+      left: 590px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  min-width: 817px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+
+  .promo-images {
+    height: 304px;
+    width: 961px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+
+    .image1 {
+      background-image: url(../images/tours/tour-01.jpg);
+      width: 236px;
+      height: 304px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .image2 {
+      background-image: url(../images/tours/tour-02.jpg);
+      width: 236px;
+      height: 304px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .image3 {
+      background-image: url(../images/tours/tour-03.jpg);
+      width: 236px;
+      height: 304px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+      padding-top: 37px;
+    }
+  }
+}
+
+.message-box {
+  width: 818px;
+  height: 192px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-bottom: 37px;
+}
+
+.booking {
+  min-height: 400px;
+  padding: 50px;
+
+  .booking-wrapper {
+    max-width: 818px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .adults-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+
+    .adults {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .adult-box {
+      width: 103px;
+      height: 58px;
+      background-color: transparent;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 31px;
+      text-align: left;
+      padding-left: 20px;
+      border: 1px solid black;
+      justify-content: space-evenly;
+    }
+
+    .children {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .children-box {
+      width: 103px;
+      height: 58px;
+      background-color: transparent;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 31px;
+      text-align: left;
+      padding-left: 20px;
+      border: 1px solid black;
+    }
+
+    .rooms {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .rooms-box {
+      width: 103px;
+      height: 58px;
+      background-color: transparent;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 31px;
+      text-align: left;
+      padding-left: 20px;
+      border: 1px solid black;
+      margin-right: 25px;
+    }
+  }
+
+  .bookingline1 {
+    display: flex;
+    justify-content: space-evenly;
+
+    .enter-box {
+      width: 344px;
+      height: 58px;
+      background-color: transparent;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 31px;
+      text-align: left;
+      padding-left: 20px;
+      border: 1px solid black;
+    }
+
+    .email {
+      width: 453px;
+      height: 58px;
+      background-color: transparent;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 31px;
+      text-align: left;
+      padding-left: 20px;
+      border: 1px solid black;
+    }
+  }
+
+  .check-in {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .check-in p {
+    margin-top: 55px;
+  }
+
+  .date-box {
+    width: 730px;
+    height: 58px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 31px;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid black;
+  }
+
+  .submit-button {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: #79addc;
+    color: white;
+    height: 60px;
+    width: 818px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}

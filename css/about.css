@@ -1,0 +1,84 @@
+.about-home .about {
+  color: black;
+  margin-left: 205px;
+  margin-right: 160px;
+  padding-top: 100px;
+}
+.about-home .about .about-title {
+  font-size: 50px;
+}
+.about-home .about .not-underlined {
+  text-decoration: none;
+}
+
+.client-quotes {
+  padding-top: 95px;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+.client-quotes .quotes-title {
+  margin-left: 205px;
+  font-size: xx-large;
+}
+.client-quotes .client1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-left: 205px;
+}
+.client-quotes .client1 .client-image1 {
+  height: 148px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/about-client-01.jpg);
+}
+.client-quotes .client1 .client-text {
+  padding-left: 21px;
+  height: 102px;
+  width: 385px;
+}
+.client-quotes .client1 .client-name {
+  padding-top: 20px;
+  text-align: right;
+  color: #79addc;
+}
+
+.client2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-left: 205px;
+  padding-top: 37px;
+  padding-bottom: 100px;
+}
+.client2 .client-image2 {
+  height: 150px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/about-client-02.jpg);
+}
+.client2 .client-text2 {
+  padding-left: 21px;
+  height: 102px;
+  width: 385px;
+}
+.client2 .client-name2 {
+  padding-top: 20px;
+  text-align: right;
+  color: #79addc;
+}
